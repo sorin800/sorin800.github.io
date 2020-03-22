@@ -163,7 +163,7 @@
         .section-3-elem{
             flex:1;
             text-align: center;
-            padding:100px;
+            padding:90px;
         }
         #first{
             background:#496D89;
@@ -206,7 +206,6 @@
         #hours{
             font-size:40px;
             color:#143840;
-
         }
         #projects{
             font-size:40px;
@@ -215,11 +214,13 @@
         .section-3-elem span{
             display: block;
             margin-top:10px;
-            font-size: 30px;
+            font-size: 25px;
         }
         /* Responsiveness */
+
+
         /* Navbar */
-        @media only screen and (max-width: 615px) {
+        @media screen and (max-width: 615px) {
             .content{
                 margin:150px auto;
             }
@@ -240,6 +241,7 @@
                 flex-direction: column;
             }
         }
+
          @media only screen and (max-width: 1080px) {
             .section-2-container #about-me{
                 border-right:none;
@@ -249,6 +251,21 @@
                 border:none;
             }
         } 
+
+        @media screen and (max-width: 400px) {
+            .content{
+                margin:15px auto;
+            }
+
+            .content h1{
+                font-size:30px;
+            }
+
+            .content h3{
+                font-size: 25px;
+            }
+        }   
+
     </style>
 </head>
 <body>
@@ -316,7 +333,6 @@
         </div>
     </div>
     <div class="section-3">
-        <span></span>
         <div class="section-3-elem" id="first">
             <span id="clients"><i class="fas fa-users"></i></span>
             <h1 id="section3-title-1">Clients</h1>
